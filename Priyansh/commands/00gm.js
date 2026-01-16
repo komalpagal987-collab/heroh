@@ -29,7 +29,7 @@ react.includes("morning")) {
 (  Morning  )  ☔ ❄
  `•.¸  💓   ¸.•`  🌹 🌹 💚
      ° •.¸¸.•° Good 
-                          Sweet Morning 🍬💓🍬💓`,attachment: fs.createReadStream(__dirname + `/noprefix/gmm.mp4`)
+                          Sweet Morning 🍬💓🍬💓`,attachment: fs.createReadStream(__dirname + `/noprefix/gm.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😈", event.messageID, (err) => {}, true)
